@@ -48,14 +48,15 @@ body{
     font-style: normal;
 }
 .formsec{
-    width:55%;
+    width:50%;
     align-content: center;
     margin: 0 auto;
     /* border:thin solid red; */
     margin-top: 1rem;
     border-radius: 0.5rem;
     background-color: #FEFBF9;
-    padding: 0rem 3rem 0 2rem;
+    padding: 2.1rem;
+    border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .formsec h2{
@@ -65,7 +66,7 @@ body{
     line-height: 3rem;
     margin-bottom: 0.8rem;
     text-align: justify;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
   
   .formsec p{
@@ -85,9 +86,8 @@ body{
     font-size: 1rem;
     line-height: 1.5rem;
   }
-
-  
-  .formcat {
+ 
+    .formcat {
     display: flex;
     gap: 1.2rem;
     margin-bottom: 1.2rem;
@@ -112,43 +112,61 @@ body{
   }
   
   .inputbox input {
-    width: 90%;
+    width: 85%;
     padding: 1.2rem;
     border: 1px solid #ccc;
     border-radius: 0.3rem;
     font-size: 1rem;
+    
   }
-  .inputbox a{
-    color: #D77F81;
-    font-weight: 700;
-    font-size: 0.9;
-    line-height: 1.3rem;
+  
+  /* Form Footer Styling */
+  .formbase {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15rem;
+    text-align: center;
 
   }
-  .submit-btn {
-    padding: 1rem;
-    width: 20%;
-    background-color: #384A62;
-    color: #FFFFFF;
+  .formbase button{
+    align-items: end;
+    margin-top: 1rem;
+  }
+  
+  .formbase p {
+    color: #384A62;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .formbase a {
+    color: #D77F81;
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.5rem;
-    font-style: normal;
+    text-decoration: none;
+  }
+  
+  .formbase a:hover {
+    text-decoration: underline;
+  }
+  
+  .submit-btn {
+    padding: 1rem;
+    width: 24%;
+    background-color: #384A62;
+    color: #fff;
+    border: none;
     border-radius: 0.2rem;
+    font-size: 1rem;
     cursor: pointer;
     /* transition: background-color 0.3s; */
   }
-  .formbase{
-    display: flex;
-    justify-content: space-between;
-  }
-  .formbase p a{
-    color: #D77F81;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-style: normal;
-    text-decoration: none;
+  
+  .submit-btn:hover {
+    /* background-color: #555; */
   }
   .formemptybox{
     margin: 0 auto;

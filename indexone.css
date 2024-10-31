@@ -2,10 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:"SF Pro", ui-sans-serif, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
     
-}
-body{
-    font-family:"SF Pro", ui-sans-serif, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .container{
     margin: 0 auto;
@@ -61,8 +59,8 @@ body{
     justify-content: space-between;
     gap: 4rem;
 }
-.rightH-rightside img{
-    width: 20%;
+.rightH-rightside a img{
+    width: 100%;
 }
 .rightH-rightside button{
     display: flex;

@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGN-IN LANDING PAGE</title>
+    <title>MERCH SUB_ACCOUNT CREATION PAGE</title>
 
-    <link rel="stylesheet" href="./signin.css">
-    <link rel="stylesheet" href="./mediasignin.css">
+    <link rel="stylesheet" href="./subpage.css">
+    <link rel="stylesheet" href="../merchsubpage/">
 </head>
 <body>
-
     <div class="container1">
         
     </div>
@@ -21,23 +20,42 @@
             </div>
         </div>
         <div class="formsec">
-            <h2>Sign In</h2>
-            <p>Already have an account? <br> Create / Manage your<a href="#" class="p1"> merch store.</a></p>
+            <h2>Create Account</h2>
+            <p>You're one step away from setting up your <a href="#" class="p1">store.</a></p>
             <form>
-              
+              <div class="formcat">
+                <div class="inputbox">
+                  <label for="first-name">Your Name</label>
+                  <input type="text" id="first-name" placeholder="Enter your name">
+                </div>
+                <div class="inputbox">
+                  <label for="last-name">Your Surname</label>
+                  <input type="text" id="last-name" placeholder="Enter your surname">
+                </div>
+              </div>
               <div class="formcat">
                 <div class="inputbox">
                   <label for="email">Email Address</label>
                   <input type="email" id="email" placeholder="Enter your email">
                 </div>
                 <div class="inputbox">
-                    <label for="password">Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Forgotten Password?</a></span></label>
-                    <input type="password" id="password" placeholder="Enter password">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" placeholder="Enter your phone number">
+                </div>
+              </div>
+              <div class="formcat">
+                <div class="inputbox">
+                  <label for="password">Create New Password</label>
+                  <input type="password" id="password" placeholder="Enter password">
+                </div>
+                <div class="inputbox">
+                  <label for="confirm-password">Retype New Password</label>
+                  <input type="password" id="confirm-password" placeholder="Retype password">
                 </div>
               </div>
               <div class="formbase">
-                <p>Dont have an account? <a href="../createAcctpage/index.html">Create Account</a></p>
-                <button type="submit" class="submit-btn">Sign In</button>
+                <p>Already have an account? <a href="#">Sign In</a></p>
+                <button type="submit" class="submit-btn">Create Account</button>
               </div>
             </form>
         </div>
@@ -45,7 +63,5 @@
     <div class="formemptybox">
           
     </div>
-
-    
 </body>
 </html>

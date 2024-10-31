@@ -254,32 +254,87 @@ ul .bagsmenu:hover > .bagsmenu-dropmenu{
     padding: 0rem 0rem 1rem 0rem;
     text-align: justify;
 }
+.formleft{
+    width: 50%;
+
+}
+.formleft h1{
+    color:#384A62; 
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+    font-style: normal;
+
+
+}
 .formleft p{
-    margin-bottom: 2rem;
+    color: #506683;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    font-style: normal;
+    margin-top: 1.2rem;
 }
-.namegroup{
+.formleft form{
+    margin-top: 1rem;
+}
+
+.formcat {
     display: flex;
-}
-.namegroup .YN{
+    gap: 1.2rem;
+    margin-bottom: 1.2rem;
+    padding: 0.8rem;
+    text-align: justify;
+  }
+  
+  .inputbox {
+    flex: 1;
+    
+  }
+
+  .inputbox label {
     display: block;
-}
-.emailgroup{
+    font-size: 1em;
+    color: #384A62;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: justify;
+    margin-bottom: 5px;
+  }
+  
+  .inputbox input {
+    width: 80%;
+    padding: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    
+  }
+  .formbase {
     display: flex;
-}
-.createbutton{
-    margin-top: 3rem;
-    color: #FFFFFF;
-    width: 25%;
+    justify-content: space-between;
+    /* gap: 20rem; */
+    text-align: center;
+
+  }
+  .formbase button{
+    margin-left: 29rem;
+    margin-top: 0rem;
+  }
+
+  .submit-btn {
+    padding: 0.8rem;
+    width: 22%;
     background-color: #384A62;
-    align-content: center;
-    padding: 1rem 1rem 1rem 1rem;
-
-}
-.createbutton input{
-    margin-right: 10rem;
-
-}
-
+    color: #fff;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    /* transition: background-color 0.3s; */
+  }
+  
 /* sec8page start */
 
 .sec8page{

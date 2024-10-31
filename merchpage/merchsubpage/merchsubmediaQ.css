@@ -1,0 +1,5 @@
+@media (max-width: 37.5rem) {
+    .formcat {
+      flex-direction: column;
+    }
+  }
